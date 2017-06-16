@@ -1,12 +1,12 @@
 # ProgressTextView
 
-### Preview
+## Preview
 
 ![screen-capture1](https://raw.githubusercontent.com/hyb1996/ProgressTextView/master/screen-captures/ss01.png)
 
 ![screen-capture1](https://raw.githubusercontent.com/hyb1996/ProgressTextView/master/screen-captures/ss02.gif)
 
-### Dependency
+## Dependency
 
 #### Step 1. Add the JitPack repository to your build file
 Add it in your root build.gradle at the end of repositories:
@@ -22,11 +22,11 @@ Add it in your root build.gradle at the end of repositories:
 #### Step 2. Add the dependency
 ```
     dependencies {
-            compile 'com.github.hyb1996:EnhancedFloaty:0.14'
+            compile 'com.github.hyb1996:ProgressTextView:0.1'
     }
 ```
 
-### Usage
+## Usage
 
 The attributes of ProgressTextView:
 
@@ -35,7 +35,7 @@ The attributes of ProgressTextView:
 * ptv_round_radius: The radius of rounded corners. Default value is 0.
 * ptv_border_width: The width of rounded border. Valid only if ptv_round_radius > 0. Default value is 3px.
 * ptv_enable_pressed_anim: Determine whether the animation likes Button should be enabled. If enabled, it will have a elevation when pressed. Default value is false.
-
+* ptv_progress: The initial progress value. Should be >=0 and <=100.
 
 For example:
 ```
@@ -43,9 +43,7 @@ For example:
         android:id="@+id/ptv"
         android:layout_width="50dp"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
         android:gravity="center"
-        android:maxLines="1"
         android:paddingBottom="4dp"
         android:paddingTop="4dp"
         android:text="@string/download"
