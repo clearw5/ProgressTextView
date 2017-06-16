@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ProgressTextView">
+        <attr name="ptv_reached_text_color" format="color"/>
+        <attr name="ptv_round_radius" format="dimension"/>
+        <attr name="ptv_border_width" format="dimension"/>
+        <attr name="ptv_enable_pressed_anim" format="boolean"/>
+        <attr name="ptv_progress" format="integer"/>
+    </declare-styleable>
+</resources>

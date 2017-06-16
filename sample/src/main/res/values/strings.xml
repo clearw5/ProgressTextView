@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ProgressTextView</string>
+    <string name="pause">暂停</string>
+    <string name="download">下载</string>
+</resources>
